@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* 
+ colors: 
+ grey - rgb(41, 41, 41)
+ yellow - rgb(255, 230, 0)
+*/
+body, html, head {
+    width: 500px;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+}
+
+header > img {
+    width: fit-content;
+
+}
+
+#hamburguer {
+    position: absolute;
+    width: fit-content;
+    color: white;
+    right: 5px;
+    font-size: 2.3em;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/*  Main */
+
+main {
+    position: relative;
+}
+
+
+.img {
+    margin: 5px;
+    width: 100vw;
+    height: 230px;
+    background-attachment: local;
+
+}
+
+
+div > h1 , p {
+    
+    display: block;
+    color: rgb(255, 230, 0);
+}
+
+
+#comportamento {
+    background-image: url(https://www.michael-giso.com/wp-content/uploads/2021/01/Hervey-Specter-Suit.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    
+
+}
+
+#desenvolvimento {
+ background-image: url(https://www.vindeacristo.org/comeuntochrist/pxy/cdn/fc/f2/fcf2f6dcf6b808fa027795738e8c14b9ee5358c1/jesus_sermon_mount.jpeg);
+ background-size: cover;
+}
+
+#relacionamento {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/75/82/39/1000_F_175823916_EK0YVeOtX5J5nomUQJLsNFJwRK8wTjxY.jpg);
+    background-size: cover;
+}
+
