@@ -110,4 +110,26 @@ main {
 }
 
 
+/* Footer */
+
+#oquebuscar {
+    margin: 30px 20px;
+}
+
+#ibusca {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+#actionbusca {
+    width: 100px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: rgb(255, 230, 0);
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+
 
