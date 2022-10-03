@@ -57,7 +57,7 @@ main {
     flex-direction: column;
     justify-content: end;
     margin: 2px;
-    width: 100vw;
+    width: 98vw;
     height: 350px;
 }
 
@@ -118,7 +118,7 @@ main {
 }
 
 #ibusca {
-    width: 40vw;
+    width: 50vw;
     height: 50px;
     border-radius: 5px;
     font-size: 1.2em;
