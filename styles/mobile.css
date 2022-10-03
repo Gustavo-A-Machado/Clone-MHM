@@ -117,13 +117,13 @@ main {
 }
 
 #ibusca {
-    width: 50vw;
+    width: 40vw;
     height: 50px;
     border-radius: 5px;
     font-size: 1.2em;
 }
 #actionbusca {
-    width: 30vw;
+    width: 20vw;
     height: 55px;
     border-radius: 5px;
     background-color: rgb(255, 230, 0);
