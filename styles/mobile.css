@@ -1,6 +1,7 @@
 @charset "UTF-8";
-
+    
 *{
+    max-width: 550px;
     margin: 0px;
     padding: 0px;
 
@@ -10,13 +11,11 @@
  grey - rgb(41, 41, 41)
  yellow - rgb(255, 230, 0)
 */
-body, html {
-    width: 90vw;
-}
+
 
 
 body {
-    width: 90vw;
+    width: 500px;
 }
 
 /* Header */
@@ -24,7 +23,7 @@ body {
 header {
     position: relative;
     display: flex;
-    width: 100vw;
+    width: 99vw;
     height: 50px;
     background-color: rgb(41, 41, 41);
 }
@@ -32,6 +31,9 @@ header {
 header > img {
     width: fit-content;
 
+}
+#lista{
+    display: none;
 }
 
 #hamburguer {
@@ -50,6 +52,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
 
 .materia {
@@ -113,7 +116,7 @@ main {
 /* Footer */
 
 #oquebuscar {
-    margin: 30px 20px;
+    margin: 30px 50px;
     width: 100vw;
 }
 
